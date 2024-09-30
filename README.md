@@ -15,4 +15,9 @@ Our team decided to model a database that supports fantasy football analysis, fo
 ![Dic 7](https://github.com/SahilPnc/MIST-4610-Project-1-/blob/main/Screenshot%202024-09-30%20at%201.03.10%20AM.png)
 ![Dic 8](https://github.com/SahilPnc/MIST-4610-Project-1-/blob/main/Screenshot%202024-09-30%20at%201.03.14%20AM.png)
 ### Queries
+9.Select teams whose average points scored are higher than league-wide average points scored by all teams.
+
+10.Retrieve the list of free agent players from the Player table and sort them by their position.
+
+
 ### Matrix
