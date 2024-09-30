@@ -139,6 +139,12 @@ This complex query identifies players who have at least played one game during t
 
 This simple query shows player performance in a given game and how many fantasy points, a person would gain from having that player on their fantasy team. PlayerStatistics.GameID can be changed to equal any specific GameID, so that data from any game week can be tracked efficiently. 
 
+#7.
+![Q7](https://github.com/SahilPnc/MIST-4610-Project-1-/blob/main/Q7.png)
+
+#8.
+![Q8](https://github.com/SahilPnc/MIST-4610-Project-1-/blob/main/Q8.png)
+
 #9.Select teams whose average points scored are higher than league-wide average points scored by all teams.
 ![Q9](https://github.com/SahilPnc/MIST-4610-Project-1-/blob/main/Q9.png)
 
