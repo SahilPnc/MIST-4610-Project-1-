@@ -115,6 +115,12 @@ Linked to League through LeagueID.
 #2. Sort by positions in the data.
 ![Q2](https://github.com/Kenttra/MIST-4610-P1/blob/main/Q2)
 
+#3.Selects all teams and finds their total number of wins. This is useful to see which teams are performing the best and worst at any given time. And the managers can decide whether or not they should trade.
+![Q3](https://github.com/lwh12347/Mist-4610/blob/main/Q3.png)
+
+#4.Selects only teams who score an average greater than 80 points. This query is useful for displaying scoring numbers across the league. This type of query is important for determining which teams perform at a certain level to show the general performance of the league while excluding outliers.
+![Q4](https://github.com/lwh12347/Mist-4610/blob/main/Q4.png)
+
 #5. Find noteworthy players who scored over 20 in a single game
 ![Q2](https://github.com/YonatanWoldetenssaie/FantasyFootball/blob/main/Query5.PNG) 
 
