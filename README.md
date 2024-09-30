@@ -23,12 +23,16 @@ Our team decided to model a database that supports fantasy football analysis, fo
 #2. Sort by positions in the data.
 ![Q2](https://github.com/Kenttra/MIST-4610-P1/blob/main/Q2)
 
-#9.Select teams whose average points scored are higher than league-wide average points scored by all teams.
+#5. Find noteworthy players who scored over 20 in a single game
+![Q2](https://github.com/YonatanWoldetenssaie/FantasyFootball/blob/main/Query5.PNG) 
 
+#6. Get player performance in a specific game
+![Q3](https://github.com/YonatanWoldetenssaie/FantasyFootball/blob/main/Query6.PNG) 
+
+#9.Select teams whose average points scored are higher than league-wide average points scored by all teams.
 ![Q9](https://github.com/SahilPnc/MIST-4610-Project-1-/blob/main/Q9.png)
 
 #10.Retrieve the list of free agent players from the Player table and sort them by their position.
-
 ![Q10](https://github.com/SahilPnc/MIST-4610-Project-1-/blob/main/Q10.png)
 
 ### Matrix
