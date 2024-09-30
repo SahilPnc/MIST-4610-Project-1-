@@ -117,24 +117,36 @@ Linked to League through LeagueID.
 ![Dic 7](https://github.com/SahilPnc/MIST-4610-Project-1-/blob/main/Screenshot%202024-09-30%20at%201.03.10%20AM.png)
 ![Dic 8](https://github.com/SahilPnc/MIST-4610-Project-1-/blob/main/Screenshot%202024-09-30%20at%201.03.14%20AM.png)
 ### Queries
-#1. Join Player data with PlayerStatistics data.
+#1. Compare Player Statistics
+
+This query joins Player and PlayerStatistics tables based on the PlayerID and retrieves player information, such as name, position and team and also retrieves their game statistics, such as yards and touchdowns. This is useful to compare each players statistics.
+
 ![Q1](https://github.com/Kenttra/MIST-4610-P1/blob/main/Q1)
 
-#2. Sort by positions in the data.
+#2. Searching for players at specific positions
+
+This query selects all columns from the Player table where the players position matches “QB” using REGEXP.
+This is useful to sort out each position in the data, taking a look at all players both available and on rosters.
+
 ![Q2](https://github.com/Kenttra/MIST-4610-P1/blob/main/Q2)
 
-#3.Selects all teams and finds their total number of wins. This is useful to see which teams are performing the best and worst at any given time. And the managers can decide whether or not they should trade.
+#3.Selects all teams and finds their total number of wins. 
+
+This is useful to see which teams are performing the best and worst at any given time. And the managers can decide whether or not they should trade.
 
 ![Q3](https://github.com/lwh12347/Mist-4610/blob/main/Q3.png)
 
-#4.Selects only teams who score an average greater than 80 points. This query is useful for displaying scoring numbers across the league. This type of query is important for determining which teams perform at a certain level to show the general performance of the league while excluding outliers.
+#4.Selects only teams who score an average greater than 80 points. 
+
+This query is useful for displaying scoring numbers across the league. This type of query is important for determining which teams perform at a certain level to show the general performance of the league while excluding outliers.
 
 ![Q4](https://github.com/lwh12347/Mist-4610/blob/main/Q4.png)
 
 #5. Find noteworthy players who scored over 20 in a single game
-![Q2](https://github.com/YonatanWoldetenssaie/FantasyFootball/blob/main/Query5.PNG) 
 
 This complex query identifies players who have at least played one game during the season and had noteworthy games where they scored a lot of points. Its results contain the team of the player, name of the player, how many points they score ,and the date they accomplished it. This would be used to help fantasy football players to choose players who are currently active and are relatively good to choose for their fantasy team. 
+
+![Q2](https://github.com/YonatanWoldetenssaie/FantasyFootball/blob/main/Query5.PNG) 
 
 #6. Get player performance in a specific game
 
@@ -165,6 +177,5 @@ This query finds teams whose average points scored are higher than league-wide a
 This query shows the players that are available as free agents and sorts them by their positions for simplicity. This is useful in identifying which players are not currently on rosters and can be picked up on waivers to improve a fantasy roster in the event of underperforming players, bye weeks, or injury. 
 
 ![Q10](https://github.com/SahilPnc/MIST-4610-Project-1-/blob/main/Q10.png)
-
 ### Matrix
 ![Matrix](https://github.com/SahilPnc/MIST-4610-Project-1-/blob/main/Project%20Matrix.png)
